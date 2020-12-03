@@ -46,10 +46,29 @@ console.log(happiness + monkeyfights); //Result: 12
 console.log(resultOne % resultTwo); //Result: 30
 
 
+
 //Exercise 2
 let firstName, givenName;
 firstName = 'Stacey';
 let name = givenName || firstName || 'John'; 
 console.log(name);
 //Result: Stacey. Because he shows the only true in this case: firstName = "Stacey", givenName and 'John' are undefined, so false.
+
+
+
+//Exercise 3
+//1
+let myArray = ["Name", "Age", "Address", "IBAN", "Phone"];
+console.log(myArray);                                      
+//Result: [ 'Name', 'Age', 'Address', 'IBAN', 'Phone' ]
+
+//2
+let thirdElement = myArray[2];
+console.log(thirdElement);     //Result: Address
+
+//3
+myArray[3] = "fourth element";
+console.log(myArray);          
+//Result: [ 'Name', 'Age', 'Address', 'fourth element', 'Phone' ]
+
 
