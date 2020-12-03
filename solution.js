@@ -46,3 +46,10 @@ console.log(happiness + monkeyfights); //Result: 12
 console.log(resultOne % resultTwo); //Result: 30
 
 
+//Exercise 2
+let firstName, givenName;
+firstName = 'Stacey';
+let name = givenName || firstName || 'John'; 
+console.log(name);
+//Result: Stacey. Because he shows the only true in this case: firstName = "Stacey", givenName and 'John' are undefined, so false.
+
